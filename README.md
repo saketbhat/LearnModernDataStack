@@ -41,5 +41,12 @@ In this effort we will be exploring the below mentioned tools and Technologies
           - 30 GB balanced persistent disk
           - Leave other options ad default
         - Now create SSH keys to enable SSH access from your laptop to the this remote machine
-        - 
+          - Use the link : https://cloud.google.com/compute/docs/connect/create-ssh-keys to generate SSH keys
+          - Add SSH keys to google cloud by navigating to Compute Engine ---> metadata --> add SSH keys
+          - Copy the public key from the .ssh/key_file.pub and paste it . Click Save 
+          - Generate a config file under .ssh folder in your home directory on your local machine
+              `Host $Instancename on google cloud
+                HostName External IP Address for the VM
+                User $localuser on your laptop
+                IdentityFile pathname to private key under .ssh`
         
