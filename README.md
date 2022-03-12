@@ -28,6 +28,7 @@ In this effort we will be exploring the below mentioned tools and Technologies
   * DBT 
 * Setup Snowflake
 * Data Ingestion using Airbyte and Python
+* Data Modeling ( dbdiagrams.io)
 * Tranformation with DBT
 * Answer business question with Metabase
 
