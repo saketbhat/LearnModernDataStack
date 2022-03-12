@@ -8,6 +8,7 @@ In this effort we will be exploring the below mentioned tools and Technologies
 - Google Cloud ( VM )
 - Docker ( For containerization)
 - Python ( For general data manipulation and extract/ load process)
+- Postgres DB ( Reporting Database)
 - SQL ( most important skills to build data pipelines)
 - Airbyte ( Data Ingestion)
 - Snowflake ( Cloud Data Warehouse )
