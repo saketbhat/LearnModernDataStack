@@ -13,6 +13,8 @@ In this effort we will be exploring the below mentioned tools and Technologies
 - Airbyte ( Data Ingestion)
 - Snowflake ( Cloud Data Warehouse )
 - DBT ( Transformations)
+- Jenkins
+- Github
 
 # High Level Project Plan (Retail Management)
 
@@ -30,6 +32,7 @@ In this effort we will be exploring the below mentioned tools and Technologies
 * Data Ingestion using Airbyte and Python
 * Data Modeling ( dbdiagrams.io)
 * Tranformation with DBT
+* CI/CD process
 * Answer business question with Metabase
 
 ## Setting up Google Cloud
