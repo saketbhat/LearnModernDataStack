@@ -23,7 +23,9 @@ In this effort we will be exploring the below mentioned tools and Technologies
   * pgadmin
   * Python
   * metabase
-  * snowflake connector 
+  * snowflake connector
+  * Airbyte
+  * DBT 
 * Setup Snowflake
 * Data Ingestion using Airbyte and Python
 * Tranformation with DBT
