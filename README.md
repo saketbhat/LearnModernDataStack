@@ -17,7 +17,13 @@ In this effort we will be exploring the below mentioned tools and Technologies
 # High Level Project Plan (Retail Management)
 
 * Setup Google Cloud VM
-* Containerization with Docker 
+* Containerization with Docker
+  * Miniconda
+  * Postgres
+  * pgadmin
+  * Python
+  * metabase
+  * snowflake connector 
 * Setup Snowflake
 * Data Ingestion using Airbyte and Python
 * Tranformation with DBT
