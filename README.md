@@ -13,6 +13,15 @@ In this effort we will be exploring the below mentioned tools and Technologies
 - Snowflake ( Cloud Data Warehouse )
 - DBT ( Transformations)
 
+# High Level Project Plan (Retail Management)
+
+* Setup Google Cloud VM
+* Containerization with Docker 
+* Setup Snowflake
+* Data Ingestion using Airbyte and Python
+* Tranformation with DBT
+* Answer business question with Metabase
+
 ## Setting up Google Cloud
 
 - Go to https://cloud.google.com/ and create a new account with the free trial
@@ -23,4 +32,13 @@ In this effort we will be exploring the below mentioned tools and Technologies
     - Keep the organization as default 
     - Navigate to the compute engine section on the left side panel
         - Go to Virtual Machines section and click on VM Instances
+        - Enable the Compute Engine API when prompted
+        - On the next screen , select the create instance 
+          - Choose the appropriate options( I chose the below for our project)
+          - E2-standard - 32 GB memory
+          - Ubuntu 20.04 LTS
+          - 30 GB balanced persistent disk
+          - Leave other options ad default
+        - Now create SSH keys to enable SSH access from your laptop to the this remote machine
         - 
+        
